@@ -1,0 +1,168 @@
+先將 AuthService.Validate() 內容註解掉
+
+		public bool Validate(string account, string password)
+		{
+			//if (account == "joeychen" && password == "1234")
+			//{
+			//	return true;			
+			//}			
+			//else
+			//{
+			//	return false;				
+			//} 
+			throw new NotImplementedException();
+		}
+		
+AuthService 的商業邏輯：
+1. 需透過 id 到 profile 資料中取得 password hash完的 result
+2. 需將傳進來的參數 password 經過 hash 後, 跟從 profile 取得的 result 比對，若相等則代表 Valid, 不相等則為 InValid
+
+code snippet:
+1. 修改 AuthService.feature, 需要 ProfileDao 與 Hash 兩個物件，並定義ProfileDao.GetPassword(), Hash.GetHash()要回傳的值
+Scenario Outline:  Validate
+	Given id is <id>
+	And password is <password>
+	And ProfileDao is stub
+	And ProfileDao's GetPassword will return <passwordFromDao>
+	And Hash is stub
+	And Hash's GetHash will return <hashResult>
+	When I invoke Validate
+	Then the result should be <result>
+
+	Examples: 
+	| scenario | id       | password | result | passwordFromDao | hashResult |
+	| valid    | joeychen | 1234     | true   | ooxx            | ooxx       |
+	| invalid  | joeychen | abc      | false  | ooxx            | xxxx       |
+	
+2. 	完成 Steps 的內容
+		[Given(@"ProfileDao is stub")]
+		public void GivenProfileDaoIsStub()
+		{
+			var profileDao = Substitute.For<IProfileDao>();
+			this._target.ProfileDao = profileDao;
+		}
+
+		[Given(@"ProfileDao's GetPassword will return (.*)")]
+		public void GivenProfileDaoSGetPasswordWillReturn(string passwordFromDao)
+		{
+			var id = "";
+			this._target.ProfileDao.GetPassword(id).ReturnsForAnyArgs(passwordFromDao);
+		}
+
+		[Given(@"Hash is stub")]
+		public void GivenHashIsStub()
+		{
+			var hash = Substitute.For<IHash>();
+			this._target.Hash = hash;
+		}
+
+		[Given(@"Hash's GetHash will return (.*)")]
+		public void GivenHashSGetHashWillReturn(string hashResult)
+		{
+			var original = "";
+			this._target.Hash.GetHash(original).ReturnsForAnyArgs(hashResult);
+		}
+		
+※ 這時執行測試，會得到想要的紅燈。（因為 throw new NotImplementationException）
+
+3. 完成 production code, 通過測試
+	public class AuthService : IAuth
+	{
+		public bool Validate(string account, string password)
+		{			
+			//throw new NotImplementedException();
+			var passwordFromDao = this.ProfileDao.GetPassword(account);
+			var hashResult = this.Hash.GetHash(password);
+
+			if (passwordFromDao == hashResult)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		public IProfileDao ProfileDao { get; set; }
+
+		public IHash Hash { get; set; }
+	}
+
+※ 這時 AuthService unit test 會通過，但 web 測試會 failed, 原因一樣是 IProfileDao 與 IHash 是 null。	
+
+4. 修正 production code 以通過 web 測試, 在 LoginController new AuthService 時，就把 IProfileDao 與 IHash 的 instance assign 好。
+LoginController.AuthService property 程式碼如下：
+
+		public IAuth AuthService
+		{
+			get
+			{
+				if (this._auth == null)
+				{
+					//this._auth = new AuthService();
+					this._auth = new AuthService { Hash = new MyHash(), ProfileDao = new ProfileDao() };
+				}
+
+				return this._auth;
+			}
+			set
+			{
+				this._auth = value;
+			}
+		}
+
+5. 產生 MyHash 與 ProfileDao class, 並實作對應 interface
+	public class MyHash : IHash
+	{
+		public string GetHash(string original)
+		{
+			throw new NotImplementedException();
+		}
+	}
+
+	public class ProfileDao : IProfileDao
+	{
+		public string GetPassword(string id)
+		{
+			throw new NotImplementedException();
+		}
+	}	
+
+6. 依據 AuthService 的 test case, hard code 對應邏輯，以通過 web 測試。
+	public class MyHash : IHash
+	{
+		public string GetHash(string original)
+		{
+			if (original == "1234")
+			{
+				return "ooxx";
+			}
+			else if (original == "abc")
+			{
+				return "xxxx";
+			}
+
+			return "";
+		}
+	}
+
+	public class ProfileDao : IProfileDao
+	{
+		public string GetPassword(string id)
+		{
+			if (id == "joeychen")
+			{
+				return "ooxx";
+			}
+
+			return "";
+		}
+	}
+
+※ 執行測試，所有測試案例都是綠燈。經過ATDD與TDD的循環，我們完成了 LoginController, AuthService, 也產生了 MyHash 與 ProfileDao。
+接著只需要再用 TDD 完成 ProfileDao 與 MyHash 的內容即可。
+ProfileDao 如果是連DB，那建議在測試專案裡面使用 EF 進行 integration TDD，不需要再 isolated 了。
+Hash 是比較特別的，因為不可逆，所以只能從 hash 演算法的 input/output 來當測試案例。
+
+※ 別忘了產生 living documenatation 囉

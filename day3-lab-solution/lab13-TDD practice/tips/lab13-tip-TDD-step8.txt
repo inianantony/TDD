@@ -1,0 +1,134 @@
+針對 LoginController 進行職責分離，將 Authentication 職責交給 IAuth
+0. 建議可以先將 LoginController hard code的內容註解掉, 回歸到 unit test 的 TDD。（原先的 hard code 內容是供 ATDD 驗證雛形是否符合期待使用）
+		[HttpPost]
+		public ActionResult Index(string account, string password)
+		{
+			//if (account == "joeychen" && password == "1234")
+			//{
+			//	return RedirectToAction("Index", "Welcome");
+			//}
+			//// 加上authentication失敗的處理
+			//else
+			//{
+			//	ViewBag.Message = "wrong account or password";
+			//	return View();
+			//} 
+
+			return View();
+		}
+		
+1. 修正 LoginController 的 scenario, 加入 stub 物件與預期行為
+Scenario: Login Success
+	Given login account is "joeychen"
+	And user's password is "1234"	
+	And AuthService is stub
+	And AuthService.Validate return isValid is true
+	When I invoke Index with HttpPost
+	Then result's Controller name should be "Welcome"
+	And result's Action name should be "Index"
+	
+加入了兩個 Given 的 steps 如下：
+	And AuthService is stub
+	And AuthService.Validate return isValid is true
+
+※ 在這裡定義了 LoginController 會使用到 AuthService, 且 Validate() 的方法將會 return true, 代表合法
+	
+2. 產生 stub 相關的 Given Steps 內容
+		[Given(@"AuthService is stub")]
+		public void GivenAuthServiceIsStub()
+		{
+			var stubAuth = Substitute.For<IAuth>();
+			this._target.AuthService = stubAuth;
+		}
+
+		[Given(@"AuthService\.Validate return isValid is (.*)")]
+		public void GivenAuthService_ValidateReturnIsValidIsTrue(bool isValid)
+		{
+			this._target.AuthService.Validate("", "").ReturnsForAnyArgs(isValid);
+		}
+
+※ 這個步驟直接定義 IAuth 以及 LoginController 的 AuthService property。並定義 stubAuth 的 Validate() 需傳入兩個字串參數，被呼叫時應回傳 scenario 上的結果。
+※ 這個時候執行測試會是紅燈。接著要完成程式碼，讓Login Success變成綠燈。
+
+3. 修改 LoginController.Index 方法，改使用 IAuth 來決定合法或非法
+    public class LoginController : Controller
+    {
+        //
+        // GET: /Login/
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+		[HttpPost]
+		public ActionResult Index(string account, string password)
+		{
+			var isValid = this.AuthService.Validate(account, password);
+
+			if (isValid)
+			{
+				return RedirectToAction("Index", "Welcome");
+			}
+
+			//if (account == "joeychen" && password == "1234")
+			//{
+			//	return RedirectToAction("Index", "Welcome");
+			//}
+			//// 加上authentication失敗的處理
+			//else
+			//{
+			//	ViewBag.Message = "wrong account or password";
+			//	return View();
+			//} 
+
+			return View();
+		}
+
+		public Models.IAuth AuthService { get; set; }
+	}
+	
+※ Login Success 的 unit test 變成綠燈了。（但 web 的測試還是紅燈）
+
+4. 調整 Login Failed 的 scenario, 一樣透過 stub, 回傳 isValid 為 false
+	Scenario: Login Failed
+	Given login account is "joeychen"
+	And user's password is "abc"	
+	And AuthService is stub
+	And AuthService.Validate return isValid is false
+	When I invoke Index with HttpPost
+	Then result's ViewBag Message should be "wrong account or password"
+	
+※ 執行LoginController.feature 的測試，login success 綠燈, login failed 紅燈
+
+5. 完成 LoginController.Index 帳號密碼非法的 scenario
+		[HttpPost]
+		public ActionResult Index(string account, string password)
+		{
+			var isValid = this.AuthService.Validate(account, password);
+
+			if (isValid)
+			{
+				return RedirectToAction("Index", "Welcome");
+			}
+			else
+			{
+				ViewBag.Message = "wrong account or password";
+				return View();				
+			}
+
+			//if (account == "joeychen" && password == "1234")
+			//{
+			//	return RedirectToAction("Index", "Welcome");
+			//}
+			//// 加上authentication失敗的處理
+			//else
+			//{
+			//	ViewBag.Message = "wrong account or password";
+			//	return View();
+			//} 
+
+			//return View();
+		}
+		
+※ LoginController 的 unit test 都是綠燈了。（但 web 的測試還是紅燈）

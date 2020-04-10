@@ -1,0 +1,61 @@
+在MyWeb.Tests\Features 裡面新增一個 AuthService.feature
+1. 使用 Scenario Outline & Examples, 將 Valid 跟 InValid 的 scenarios 寫在一起
+Feature: AuthService	
+Scenario Outline:  Validate
+	Given id is <id>
+	And password is <password>
+	When I invoke Validate
+	Then the result should be <result>
+
+	Examples: 
+	| scenario | id       | password | result |
+	| valid    | joeychen | 1234     | true   |
+	| invalid  | joeychen | abc      | false  |
+
+2. 完成 steps 內容
+	[Binding]
+	[Scope(Feature = "AuthService")]
+	public class AuthServiceSteps
+	{
+		private AuthService _target;
+
+		[BeforeScenario]
+		public void BeforeScenario()
+		{
+			this._target = new AuthService();
+		}
+
+		[Given(@"id is (.*)")]
+		public void GivenIdIs(string id)
+		{
+			ScenarioContext.Current.Set<string>(id, "id");
+		}
+
+		[Given(@"password is (.*)")]
+		public void GivenPasswordIs(string password)
+		{
+			ScenarioContext.Current.Set<string>(password, "password");
+		}
+
+
+		[When(@"I invoke Validate")]
+		public void WhenIInvokeValidate()
+		{
+			var id = ScenarioContext.Current.Get<string>("id");
+			var password = ScenarioContext.Current.Get<string>("password");
+
+			bool actual = this._target.Validate(id, password);
+
+			ScenarioContext.Current.Set<bool>(actual, "result");
+		}
+
+		[Then(@"the result should be (.*)")]
+		public void ThenTheResultShouldBe(bool expectedResult)
+		{
+			var actual = ScenarioContext.Current.Get<bool>("result");
+			Assert.AreEqual(expectedResult, actual);
+		}
+	}
+
+※ 雖然新增完 AuthService 的測試案例也全數通過了，但現在仍是 hard code 的邏輯。
+※ 就跟 LoginController 一樣，接著先把 AuthService 內 hard code 的程式碼註解掉，並將依賴物件透過 stub 來完成。

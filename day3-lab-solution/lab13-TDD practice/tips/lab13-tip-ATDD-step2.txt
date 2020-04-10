@@ -1,0 +1,159 @@
+﻿1. 產生 Login Step Definitions, 釐清 user 與 page object 的互動
+
+code snippet：產生Login Steps
+
+using System;
+using TechTalk.SpecFlow;
+using FluentAutomation;
+
+namespace MyWeb.Tests.Steps
+{
+	[Binding]
+	[Scope(Feature = "Login")]
+	public class LoginSteps : FluentTest
+	{
+		//from reading the scenarios, we need two page objects. The first one is "Login" page, the other one is "Welcome" page
+		private LoginPage _loginPage;
+		private WelcomePage _welcomePage;
+
+		[BeforeScenario]
+		public void BeforeScenario()
+		{
+			this._loginPage = new LoginPage(this);
+		}
+
+		public LoginSteps()
+		{
+			SeleniumWebDriver.Bootstrap(SeleniumWebDriver.Browser.Chrome);
+		}
+
+		[Given(@"I go to Login Page")]
+		public void GivenIGoToLoginPage()
+		{
+			this._loginPage.Go();
+		}
+
+		[Given(@"I Enter my account ""(.*)""")]
+		public void GivenIEnterMyAccount(string account)
+		{
+			this._loginPage.Account(account);
+		}
+
+		[Given(@"I Enter my password ""(.*)""")]
+		public void GivenIEnterMyPassword(string password)
+		{
+			this._loginPage.Password(password);
+		}
+
+		[When(@"I Login")]
+		public void WhenILogin()
+		{
+			this._loginPage.Login();
+		}
+
+		[Then(@"it should be redirect to Welcome Page")]
+		public void ThenItShouldBeRedirectToWelcomePage()
+		{
+			this._welcomePage = new WelcomePage(this);
+			this._welcomePage.CheckAt();
+		}
+
+		[Then(@"it should be displayed ""(.*)"" on the screen")]
+		public void ThenItShouldBeDisplayedOnTheScreen(string welcomeMessage)
+		{
+			this._welcomePage.WelcomeMessage(welcomeMessage);			
+		}
+	}
+}
+
+2. 定義 Page Objects 
+針對 LoginPage, 產生 class 到 MyWeb.Tests\PageObjects\LoginPage.cs
+private LoginPage _loginPage;
+
+針對 WelcomePage, 產生 class 到 MyWeb.Tests\PageObjects\WelcomePage.cs
+private WelcomePage _welcomePage;
+
+3. 定義 page object 有哪些行為，並直接產生 function
+(1) constructor
+this._loginPage = new LoginPage(this);
+this._welcomePage = new WelcomePage(this);
+
+(2) LoginPage.Account() function
+this._loginPage.Account(account);
+
+(3) LoginPage.Password() function
+this._loginPage.Password(password);
+
+(4) LoginPage.Login() function
+this._loginPage.Login();
+
+※ Go() 先不需要產生, 因為 page object 會繼承自 PageObject<T>, base class 裡已經有實作 Go() 的內容
+
+(5) WelcomePage.CheckAt() function
+this._welcomePage.CheckAt();
+
+(6) WelcomePage.WelcomeMessage() function
+this._welcomePage.WelcomeMessage(welcomeMessage);
+
+
+4. 完成 LoginPage.cs
+(1) using FluentAutomation;
+(2) 讓 LoginPage 繼承自 PageObject<T>
+(3) 修改 constructor, 改使用 PageObject<T> 的 constructor
+(4) 定義 Url
+
+	public class LoginPage : PageObject<LoginPage>
+	{
+		public LoginPage(FluentTest test)
+			: base(test)
+		{
+			Url = string.Format("{0}/{1}", MyTestContext.Domain, "Login");
+		}
+
+		internal void Account(string account)
+		{
+			throw new NotImplementedException();
+		}
+
+		internal void Password(string password)
+		{
+			throw new NotImplementedException();
+		}
+
+		internal void Login()
+		{
+			throw new NotImplementedException();
+		}
+	}
+(5) 在 MyWeb.Tests\Util 底下建立 static class: MyTestContext
+    internal static class MyTestContext
+	{
+		public static string Domain { get { return @"http://localhost:35345"; } }
+	}
+	
+5. 	完成 WelcomePage.cs
+(1) using FluentAutomation;
+(2) 讓 WelcomePage 繼承自 PageObject<T>
+(3) 修改 constructor, 改使用 PageObject<T> 的 constructor
+(4) 定義 Url
+
+	public class WelcomePage : PageObject<WelcomePage>
+	{
+		public WelcomePage(FluentTest test)
+			: base(test)
+		{
+			Url = string.Format("{0}/{1}", MyTestContext.Domain, "Welcome");
+		}
+
+		internal void CheckAt()
+		{
+			throw new NotImplementedException();
+		}
+		
+		internal void WelcomeMessage(string welcomeMessage)
+		{
+			throw new NotImplementedException();
+		}		
+	}
+	
+※這個時候執行 this._loginPage.Go(), 會得到 404 error，因為還沒有這個網頁

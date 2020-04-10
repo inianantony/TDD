@@ -1,0 +1,405 @@
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.dll.config
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.pdb
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Antlr3.Runtime.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\EntityFramework.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.Edm.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.OData.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Newtonsoft.Json.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.WebRequest.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Spatial.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Helpers.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.OData.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Mvc.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Optimization.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Razor.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebGrease.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.Data.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.WebData.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\EntityFramework.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Newtonsoft.Json.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.WebRequest.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Helpers.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Mvc.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Razor.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.Data.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.WebData.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.OData.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.Edm.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.OData.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Spatial.xml
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.WebRequest.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\WebMatrix.Data.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\WebMatrix.WebData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Http.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.csprojResolveAssemblyReference.cache
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.dll
+C:\Users\joeychen\Desktop\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.pdb
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.dll.config
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.pdb
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Antlr3.Runtime.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\EntityFramework.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.Edm.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.OData.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Newtonsoft.Json.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.WebRequest.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Spatial.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Helpers.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.OData.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Mvc.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Optimization.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Razor.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebGrease.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.Data.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.WebData.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\EntityFramework.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Newtonsoft.Json.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.WebRequest.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Helpers.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Mvc.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Razor.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.Data.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.WebData.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.OData.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.Edm.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.OData.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Spatial.xml
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.WebRequest.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\WebMatrix.Data.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\WebMatrix.WebData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Http.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.dll
+C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.pdb
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.dll.config
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.pdb
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Antlr3.Runtime.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\EntityFramework.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.Edm.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.OData.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Newtonsoft.Json.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.Formatting.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.WebRequest.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Spatial.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Helpers.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.OData.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.WebHost.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Mvc.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Optimization.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Razor.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebGrease.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.Data.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.WebData.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\EntityFramework.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Newtonsoft.Json.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.Formatting.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.WebRequest.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Helpers.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.WebHost.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Mvc.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Razor.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.Data.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.WebData.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.OData.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.Edm.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.OData.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Spatial.xml
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.WebRequest.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\WebMatrix.Data.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\WebMatrix.WebData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Http.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.csprojResolveAssemblyReference.cache
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.dll
+C:\Users\joeychen\Documents\企業內訓\201510_skilltree\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.pdb
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.dll.config
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\MyWeb.pdb
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Antlr3.Runtime.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.AspNet.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.Core.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\EntityFramework.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.Edm.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.OData.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Newtonsoft.Json.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.Formatting.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Spatial.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Helpers.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.OData.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.WebHost.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Mvc.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Optimization.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Razor.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Deployment.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Razor.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebGrease.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.WebData.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\EntityFramework.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Newtonsoft.Json.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.Formatting.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Helpers.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.WebHost.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Mvc.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Razor.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Deployment.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.WebPages.Razor.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.Data.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\WebMatrix.WebData.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.AspNet.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.Core.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OAuth.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Web.Http.OData.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.Edm.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\Microsoft.Data.OData.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Spatial.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\System.Net.Http.xml
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\EntityFramework.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Helpers.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Http.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Mvc.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Optimization.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Razor.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\WebMatrix.Data.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Web.WebPages.OAuth.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\WebMatrix.WebData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Web.Http.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\de\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\es\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\fr\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\it\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ja\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ko\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\ru\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hans\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Spatial.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\bin\zh-Hant\System.Net.Http.resources.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.csprojResolveAssemblyReference.cache
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.dll
+E:\TDD training\201505 Titansoft SG\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb\obj\Debug\MyWeb.pdb

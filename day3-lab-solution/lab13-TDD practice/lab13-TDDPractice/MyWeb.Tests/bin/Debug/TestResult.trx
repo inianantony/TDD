@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8093c895-a99b-486b-a5ef-3daad53614b3" name="joeychen@WANTALMOST-V7 2015-09-03 00:13:31" runUser="Y\joeychen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="2c3ab1f6-c7b4-4961-88d6-8eb236585c4b">
+    <Deployment userDeploymentRoot="C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb.Tests\bin\Debug" useDefaultDeploymentRoot="false" runDeploymentRoot="joeychen_WANTALMOST-V7 2015-09-03 00_13_31" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2015-09-03T00:13:31.3363988+08:00" queuing="2015-09-03T00:13:31.9284542+08:00" start="2015-09-03T00:13:32.1053219+08:00" finish="2015-09-03T00:14:07.4957770+08:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="WANTALMOST-V7" outcome="Warning" timestamp="2015-09-03T00:13:31.8135395+08:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'WebGrease' directly or indirectly referenced by the test container 'C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb.Tests\bin\Debug\myweb.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WANTALMOST-V7" outcome="Warning" timestamp="2015-09-03T00:13:31.8135395+08:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'log4net' directly or indirectly referenced by the test container 'C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb.Tests\bin\Debug\myweb.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WANTALMOST-V7" outcome="Warning" timestamp="2015-09-03T00:13:31.8135395+08:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'C:\Users\joeychen\Dropbox\skill tree 課程\201510 第四梯\lab\day3-lab-solution\lab13-TDD practice\lab13-TDDPractice\MyWeb.Tests\bin\Debug\myweb.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoginSuccess" storage="myweb.tests.dll" id="2c7c5880-6eb9-9b07-7884-364f79d649f1">
+      <Description>Login Success</Description>
+      <Execution id="a6104691-3499-4deb-b53c-45458887edde" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Login</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/joeychen/Dropbox/skill tree 課程/201510 第四梯/lab/day3-lab-solution/lab13-TDD practice/lab13-TDDPractice/MyWeb.Tests/bin/Debug/MyWeb.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyWeb.Tests.Features.LoginFeature, MyWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginSuccess" />
+    </UnitTest>
+    <UnitTest name="LoginFailed" storage="myweb.tests.dll" id="d98f60ca-ee6f-5604-7900-08910c84afbf">
+      <Description>Login Failed</Description>
+      <Execution id="3c47a238-b1f0-41fa-89df-1813ee21e9f4" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LoginController</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/joeychen/Dropbox/skill tree 課程/201510 第四梯/lab/day3-lab-solution/lab13-TDD practice/lab13-TDDPractice/MyWeb.Tests/bin/Debug/MyWeb.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyWeb.Tests.Features.LoginControllerFeature, MyWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginFailed" />
+    </UnitTest>
+    <UnitTest name="Validate_Invalid" storage="myweb.tests.dll" id="e71fd988-e227-2b5a-bcab-8279a22b6882">
+      <Description>Validate</Description>
+      <Execution id="5122bf10-1e77-488d-89c5-e8aca6d5674b" />
+      <Properties>
+        <Property>
+          <Key>Parameter:scenario</Key>
+          <Value>invalid</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:result</Key>
+          <Value>false</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:hashResult</Key>
+          <Value>xxxx</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:id</Key>
+          <Value>joeychen</Value>
+        </Property>
+        <Property>
+          <Key>VariantName</Key>
+          <Value>invalid</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:passwordFromDao</Key>
+          <Value>ooxx</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:password</Key>
+          <Value>abc</Value>
+        </Property>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>AuthService</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/joeychen/Dropbox/skill tree 課程/201510 第四梯/lab/day3-lab-solution/lab13-TDD practice/lab13-TDDPractice/MyWeb.Tests/bin/Debug/MyWeb.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyWeb.Tests.Features.AuthServiceFeature, MyWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_Invalid" />
+    </UnitTest>
+    <UnitTest name="LoginSuccess" storage="myweb.tests.dll" id="c1d7c5a8-569b-5869-7c9a-8f80847ab97e">
+      <Description>Login Success</Description>
+      <Execution id="12be58eb-4068-47f7-89b6-97dc2aeaf688" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LoginController</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/joeychen/Dropbox/skill tree 課程/201510 第四梯/lab/day3-lab-solution/lab13-TDD practice/lab13-TDDPractice/MyWeb.Tests/bin/Debug/MyWeb.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyWeb.Tests.Features.LoginControllerFeature, MyWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginSuccess" />
+    </UnitTest>
+    <UnitTest name="Validate_Valid" storage="myweb.tests.dll" id="be15ad6b-d380-aba1-27d9-6ce6ecf05761">
+      <Description>Validate</Description>
+      <Execution id="826cc351-66ef-451d-9354-14d7621f2c94" />
+      <Properties>
+        <Property>
+          <Key>Parameter:scenario</Key>
+          <Value>valid</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:result</Key>
+          <Value>true</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:hashResult</Key>
+          <Value>ooxx</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:id</Key>
+          <Value>joeychen</Value>
+        </Property>
+        <Property>
+          <Key>VariantName</Key>
+          <Value>valid</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:passwordFromDao</Key>
+          <Value>ooxx</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:password</Key>
+          <Value>1234</Value>
+        </Property>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>AuthService</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/joeychen/Dropbox/skill tree 課程/201510 第四梯/lab/day3-lab-solution/lab13-TDD practice/lab13-TDDPractice/MyWeb.Tests/bin/Debug/MyWeb.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyWeb.Tests.Features.AuthServiceFeature, MyWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_Valid" />
+    </UnitTest>
+    <UnitTest name="LoginFailed" storage="myweb.tests.dll" id="dde45eb9-9d73-a3ba-44c7-1ca5389d8e50">
+      <Description>Login Failed</Description>
+      <Execution id="4db84dd9-30bb-42d9-a594-4dd14b2d33f5" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Login</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/joeychen/Dropbox/skill tree 課程/201510 第四梯/lab/day3-lab-solution/lab13-TDD practice/lab13-TDDPractice/MyWeb.Tests/bin/Debug/MyWeb.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyWeb.Tests.Features.LoginFeature, MyWeb.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginFailed" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e71fd988-e227-2b5a-bcab-8279a22b6882" executionId="5122bf10-1e77-488d-89c5-e8aca6d5674b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be15ad6b-d380-aba1-27d9-6ce6ecf05761" executionId="826cc351-66ef-451d-9354-14d7621f2c94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d98f60ca-ee6f-5604-7900-08910c84afbf" executionId="3c47a238-b1f0-41fa-89df-1813ee21e9f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1d7c5a8-569b-5869-7c9a-8f80847ab97e" executionId="12be58eb-4068-47f7-89b6-97dc2aeaf688" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dde45eb9-9d73-a3ba-44c7-1ca5389d8e50" executionId="4db84dd9-30bb-42d9-a594-4dd14b2d33f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c7c5880-6eb9-9b07-7884-364f79d649f1" executionId="a6104691-3499-4deb-b53c-45458887edde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5122bf10-1e77-488d-89c5-e8aca6d5674b" testId="e71fd988-e227-2b5a-bcab-8279a22b6882" testName="Validate_Invalid" computerName="WANTALMOST-V7" duration="00:00:00.2437882" startTime="2015-09-03T00:13:32.1727706+08:00" endTime="2015-09-03T00:13:32.9132156+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5122bf10-1e77-488d-89c5-e8aca6d5674b">
+      <Output>
+        <StdOut>Given id is joeychen
+-&gt; done: AuthServiceSteps.GivenIdIs("joeychen") (0.0s)
+And password is abc
+-&gt; done: AuthServiceSteps.GivenPasswordIs("abc") (0.0s)
+And ProfileDao is stub
+-&gt; done: AuthServiceSteps.GivenProfileDaoIsStub() (0.1s)
+And ProfileDao's GetPassword will return ooxx
+-&gt; done: AuthServiceSteps.GivenProfileDaoSGetPasswordWillReturn("ooxx") (0.0s)
+And Hash is stub
+-&gt; done: AuthServiceSteps.GivenHashIsStub() (0.0s)
+And Hash's GetHash will return xxxx
+-&gt; done: AuthServiceSteps.GivenHashSGetHashWillReturn("xxxx") (0.0s)
+When I invoke Validate
+-&gt; done: AuthServiceSteps.WhenIInvokeValidate() (0.0s)
+Then the result should be false
+-&gt; done: AuthServiceSteps.ThenTheResultShouldBe(False) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="826cc351-66ef-451d-9354-14d7621f2c94" testId="be15ad6b-d380-aba1-27d9-6ce6ecf05761" testName="Validate_Valid" computerName="WANTALMOST-V7" duration="00:00:00.0018539" startTime="2015-09-03T00:13:32.9132156+08:00" endTime="2015-09-03T00:13:32.9182118+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="826cc351-66ef-451d-9354-14d7621f2c94">
+      <Output>
+        <StdOut>Given id is joeychen
+-&gt; done: AuthServiceSteps.GivenIdIs("joeychen") (0.0s)
+And password is 1234
+-&gt; done: AuthServiceSteps.GivenPasswordIs("1234") (0.0s)
+And ProfileDao is stub
+-&gt; done: AuthServiceSteps.GivenProfileDaoIsStub() (0.0s)
+And ProfileDao's GetPassword will return ooxx
+-&gt; done: AuthServiceSteps.GivenProfileDaoSGetPasswordWillReturn("ooxx") (0.0s)
+And Hash is stub
+-&gt; done: AuthServiceSteps.GivenHashIsStub() (0.0s)
+And Hash's GetHash will return ooxx
+-&gt; done: AuthServiceSteps.GivenHashSGetHashWillReturn("ooxx") (0.0s)
+When I invoke Validate
+-&gt; done: AuthServiceSteps.WhenIInvokeValidate() (0.0s)
+Then the result should be true
+-&gt; done: AuthServiceSteps.ThenTheResultShouldBe(True) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c47a238-b1f0-41fa-89df-1813ee21e9f4" testId="d98f60ca-ee6f-5604-7900-08910c84afbf" testName="LoginFailed" computerName="WANTALMOST-V7" duration="00:00:00.2815945" startTime="2015-09-03T00:13:32.9232080+08:00" endTime="2015-09-03T00:13:33.2079926+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c47a238-b1f0-41fa-89df-1813ee21e9f4">
+      <Output>
+        <StdOut>Given login account is "joeychen"
+-&gt; done: LoginControllerSteps.GivenLoginAccountIs("joeychen") (0.0s)
+And user's password is "abc"
+-&gt; done: LoginControllerSteps.GivenUserSPasswordIs("abc") (0.0s)
+And AuthService is stub
+-&gt; done: LoginControllerSteps.GivenAuthServiceIsStub() (0.0s)
+And AuthService.Validate return isValid is false
+-&gt; done: LoginControllerSteps.GivenAuthService_ValidateReturnIsValidIsTrue(False) (0.0s)
+When I invoke Index with HttpPost
+-&gt; done: LoginControllerSteps.WhenIInvokeIndexWithHttpPost() (0.1s)
+Then result's ViewBag Message should be "wrong account or password"
+-&gt; done: LoginControllerSteps.ThenResultSViewBagMessageShouldBe("wrong account or ...") (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12be58eb-4068-47f7-89b6-97dc2aeaf688" testId="c1d7c5a8-569b-5869-7c9a-8f80847ab97e" testName="LoginSuccess" computerName="WANTALMOST-V7" duration="00:00:00.0042911" startTime="2015-09-03T00:13:33.2129888+08:00" endTime="2015-09-03T00:13:33.2239805+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12be58eb-4068-47f7-89b6-97dc2aeaf688">
+      <Output>
+        <StdOut>Given login account is "joeychen"
+-&gt; done: LoginControllerSteps.GivenLoginAccountIs("joeychen") (0.0s)
+And user's password is "1234"
+-&gt; done: LoginControllerSteps.GivenUserSPasswordIs("1234") (0.0s)
+And AuthService is stub
+-&gt; done: LoginControllerSteps.GivenAuthServiceIsStub() (0.0s)
+And AuthService.Validate return isValid is true
+-&gt; done: LoginControllerSteps.GivenAuthService_ValidateReturnIsValidIsTrue(True) (0.0s)
+When I invoke Index with HttpPost
+-&gt; done: LoginControllerSteps.WhenIInvokeIndexWithHttpPost() (0.0s)
+Then result's Controller name should be "Welcome"
+-&gt; done: LoginControllerSteps.ThenResultSControllerNameShouldBe("Welcome") (0.0s)
+And result's Action name should be "Index"
+-&gt; done: LoginControllerSteps.ThenResultSActionNameShouldBe("Index") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4db84dd9-30bb-42d9-a594-4dd14b2d33f5" testId="dde45eb9-9d73-a3ba-44c7-1ca5389d8e50" testName="LoginFailed" computerName="WANTALMOST-V7" duration="00:00:17.6415573" startTime="2015-09-03T00:13:33.2239805+08:00" endTime="2015-09-03T00:13:50.8630772+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4db84dd9-30bb-42d9-a594-4dd14b2d33f5">
+      <Output>
+        <StdOut>Given I go to Login Page
+-&gt; done: LoginSteps.GivenIGoToLoginPage() (7.1s)
+And I Enter my account "joeychen"
+-&gt; done: LoginSteps.GivenIEnterMyAccount("joeychen") (2.5s)
+And I Enter my password "abc"
+-&gt; done: LoginSteps.GivenIEnterMyPassword("abc") (1.7s)
+When I Login
+-&gt; done: LoginSteps.WhenILogin() (0.1s)
+Then it should show error message "wrong account or password" on the screen
+-&gt; done: LoginSteps.ThenItShouldShowErrorMessageOnTheScreen("wrong account or ...") (1.9s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6104691-3499-4deb-b53c-45458887edde" testId="2c7c5880-6eb9-9b07-7884-364f79d649f1" testName="LoginSuccess" computerName="WANTALMOST-V7" duration="00:00:16.5852634" startTime="2015-09-03T00:13:50.8630772+08:00" endTime="2015-09-03T00:14:07.4407627+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6104691-3499-4deb-b53c-45458887edde">
+      <Output>
+        <StdOut>Given I go to Login Page
+-&gt; done: LoginSteps.GivenIGoToLoginPage() (5.5s)
+And I Enter my account "joeychen"
+-&gt; done: LoginSteps.GivenIEnterMyAccount("joeychen") (2.3s)
+And I Enter my password "1234"
+-&gt; done: LoginSteps.GivenIEnterMyPassword("1234") (1.4s)
+When I Login
+-&gt; done: LoginSteps.WhenILogin() (0.1s)
+Then it should be redirect to Welcome Page
+-&gt; done: LoginSteps.ThenItShouldBeRedirectToWelcomePage() (0.8s)
+And it should be displayed "welcome, joeychen" on the screen
+-&gt; done: LoginSteps.ThenItShouldBeDisplayedOnTheScreen("welcome, joeychen") (2.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
