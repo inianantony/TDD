@@ -1,0 +1,32 @@
+完成 production code 以通過第一個測試案例
+
+1. top-down 設計，建立 GetWorkingHour() 來處理取得工時的動作
+	public int CalculateSalary()
+	{
+		var workingHour = this.GetWorkingHour();
+		var result = workingHour * this.HourlySalary;
+
+		return result;
+	}
+
+	private double GetWorkingHour()
+	{
+		throw new NotImplementedException();
+	}
+	
+2. 完成 GetWorkingHour() 內容，將整天的工時分成兩段，第一段結束時間為早上12點，第二段從13點開始算起。
+
+		private double GetWorkingHour()
+		{
+			var moringEnd = new DateTime(this.StartTime.Year, this.StartTime.Month, this.StartTime.Day, 12, 0, 0);
+			var afternoonStart = new DateTime(this.StartTime.Year, this.StartTime.Month, this.StartTime.Day, 13, 0, 0);
+
+			var morningWorkhour = DateTimeHelper.TotalHours(this.StartTime, moringEnd);
+			var afternoonWorkhour = DateTimeHelper.TotalHours(afternoonStart, this.EndTime);
+
+			var workingHour = morningWorkhour + afternoonWorkhour;
+
+			return workingHour;
+		}
+		
+3. 執行測試，得到綠燈

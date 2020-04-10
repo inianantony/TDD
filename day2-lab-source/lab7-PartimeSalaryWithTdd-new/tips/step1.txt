@@ -1,0 +1,10 @@
+1. 先讓建置可以通過
+
+產生 SalaryCard class 到 PartimeSalaryWithTdd 類別庫中
+產生 SalaryCard 對應的 properties, 如：HourlySalary, StartTime, EndTime, 
+產生 CalculateSalary() , 回傳 double
+
+2. 建置通過
+
+3. 執行測試，得到第一個紅燈，應該是 CalculateSalary() 裡面的 throw new NotImplementationException()
+

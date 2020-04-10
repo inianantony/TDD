@@ -1,0 +1,51 @@
+﻿完成production code第二段加班的功能
+
+1. 將加班的薪資 [重構]>[擷取方法] 抽出來，讓正常上班的薪資與加班的薪資職責分開
+		public double CalculateSalary()
+		{
+			var workingHour = this.GetWorkingHour();
+
+
+			if (workingHour <= normalWorkingHourLimit)
+			{
+				var result = workingHour * this.HourlySalary;
+
+				return result;
+			}
+			else
+			{
+				var normalPay = normalWorkingHourLimit * this.HourlySalary;
+
+				var overTimePay = GetOverTimePay(workingHour);
+
+				var result = normalPay + overTimePay;
+
+				return result;
+			}
+		}
+
+		private double GetOverTimePay(double workingHour)
+		{
+			var overTimeHour = workingHour - normalWorkingHourLimit;
+			var overTimePay = overTimeHour * this.FirstOverTimeRatio * this.HourlySalary;
+			return overTimePay;
+		}
+		
+2. 	完成第二段加班的功能，當加班時間超過2hr，代表有第二段加班。
+		private double GetOverTimePay(double workingHour)
+		{
+			var overTimeHour = workingHour - normalWorkingHourLimit;
+
+			// separate two phase of overtime hour
+			var firstOverTime = overTimeHour <= 2 ? overTimeHour : 2;
+			var secondOverTime = overTimeHour > 2 ? overTimeHour - firstOverTime : 0;
+
+			//var overTimePay = overTimeHour * this.FirstOverTimeRatio * this.HourlySalary;
+			var firstOverTimePay = firstOverTime * this.FirstOverTimeRatio * this.HourlySalary;
+			var secondOverTimePay = secondOverTime * this.SecondOverTimeRatio * this.HourlySalary;
+
+			var overTimePay = firstOverTimePay + secondOverTimePay;
+			return overTimePay;
+		}	
+
+3. 執行測試，通過測試。

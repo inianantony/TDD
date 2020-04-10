@@ -1,0 +1,37 @@
+﻿完成 production code 加班最多只能報4hr的限制
+
+1. 將overTimeHour [重構]>[擷取方法]，抽到GetOverTimeHours() 中，因為這次的需求異動，針對的是加班時數的調整
+
+		private double GetOverTimePay(double workingHour)
+		{
+			var overTimeHour = GetOverTimeHours(workingHour);
+
+			// separate two phase of overtime hour
+			var firstOverTime = overTimeHour <= 2 ? overTimeHour : 2;
+			var secondOverTime = overTimeHour > 2 ? overTimeHour - firstOverTime : 0;
+
+			//var overTimePay = overTimeHour * this.FirstOverTimeRatio * this.HourlySalary;
+			var firstOverTimePay = firstOverTime * this.FirstOverTimeRatio * this.HourlySalary;
+			var secondOverTimePay = secondOverTime * this.SecondOverTimeRatio * this.HourlySalary;
+
+			var overTimePay = firstOverTimePay + secondOverTimePay;
+			return overTimePay;
+		}
+
+		private double GetOverTimeHours(double workingHour)
+		{
+			var overTimeHour = workingHour - normalWorkingHourLimit;
+			return overTimeHour;
+		}
+
+2. 修改GetOverTimeHours()，完成加班最多只能報4hr的限制
+		private double GetOverTimeHours(double workingHour)
+		{
+			var overTimeHour = workingHour - normalWorkingHourLimit;
+
+			// 加班最多只能報4hr
+			var result = overTimeHour > 4 ? 4 : overTimeHour;
+			return result;
+		}
+		
+3. 執行測試，通過測試，得到綠燈

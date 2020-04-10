@@ -1,0 +1,42 @@
+﻿完成production code第一段加班的功能
+
+1. 新增一個區域變數：normalWorkingHourLimit 用來定義正常上班時間小時數
+2. 原本的第一個 test case 為正常上班的 scenario，所以修改CalculateSalary() 內容
+
+		public double CalculateSalary()
+		{
+			var workingHour = this.GetWorkingHour();
+
+
+			if (workingHour <= normalWorkingHourLimit)
+			{
+				var result = workingHour * this.HourlySalary;
+
+				return result;
+			}
+			else
+			{
+				//加班
+			}
+		}
+		
+3. 完成加班的 block, 加班的總薪水 = 正常上班的薪水+額外加班的薪水
+			if (workingHour <= normalWorkingHourLimit)
+			{
+				var result = workingHour * this.HourlySalary;
+
+				return result;
+			}
+			else
+			{
+				var normalPay = normalWorkingHourLimit * this.HourlySalary;
+
+				var overTimeHour = workingHour - normalWorkingHourLimit;				
+				var overTimePay = overTimeHour * this.FirstOverTimeRatio * this.HourlySalary;
+
+				var result = normalPay + overTimePay;
+
+				return result;
+			}
+			
+4. 執行測試，通過測試

@@ -1,0 +1,36 @@
+﻿        [TestMethod]
+        public void Test_SyncBookOrders_3_Orders_Only_2_book_order_With_Moq()
+        {
+            //arrange
+            var target = new Mock<OrderService>();
+
+            var orders = new List<Order>
+            {
+                new Order{ Type="Book", Price = 100, ProductName = "91's book"},
+                new Order{ Type="CD", Price = 200, ProductName = "91's CD"},
+                new Order{ Type="Book", Price = 300, ProductName = "POP book"},
+            };
+
+            target.Protected()
+                .Setup<List<Order>>("GetOrders")
+                .Returns(orders);
+
+            //建立mock物件，模擬與 http://api.joey.io/Order 這個 web service互動
+            var bookDao = new Mock<IBookDao>();
+
+            target.Protected()
+                .Setup<IBookDao>("GetBookDao")
+                .Returns(bookDao.Object);
+
+            //act
+            target.Object.SyncBookOrders();
+
+            //assertion
+            bookDao.Verify(x => x.Insert(It.Is<Order>(order => order.Type == "Book")), Times.Exactly(2));
+        }
+		
+		
+		
+
+
+reference: https://dotblogs.com.tw/hatelove/2016/04/13/unit-test-by-extract-and-override-protected-with-moq
