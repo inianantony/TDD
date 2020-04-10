@@ -1,0 +1,61 @@
+當 login 的帳號密碼驗證失敗時，應呈現對應的錯誤訊息在頁面上
+
+1. 修正LoginController.Index()，加上authentication失敗的處理
+    public class LoginController : Controller
+    {
+        //
+        // GET: /Login/
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+		[HttpPost]
+		public ActionResult Index(string account, string password)
+		{
+			if (account == "joeychen" && password == "1234")
+			{
+				return RedirectToAction("Index", "Welcome");
+			}
+			// 加上authentication失敗的處理
+			else
+			{
+				ViewBag.Message = "wrong account or password";
+				return View();
+			} 
+
+			//return View();
+		}
+    }
+	
+2. 修改 Views/Login/Index.cshtml, 將 ViewBag 的 Message 呈現出來
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login</h2>
+@using (Html.BeginForm())
+{
+	<fieldset>
+		<legend>登入</legend>
+		<ol>
+			<li>
+				帳號：@Html.TextBox("account")
+			</li>
+			<li>
+				密碼：@Html.Password("password")
+			</li>
+			@if (ViewBag.Message != null)
+			{
+				<div id="errorMessage" style="color: red">@ViewBag.Message </div>
+			}
+		</ol>
+		<input type="submit" value="登入" />
+	</fieldset>
+}
+
+※ 執行所有測試，兩個 scenario 都會 pass。
+※ 開發到這階段，就應該跟 PO confirm, 我們所討論的 acceptance criteria 的呈現，是否如自動執行的 scenarios 一樣。（UI layout都可以再調整）
+※ 一旦確定這樣的腳本是符合大家的共識，接著繼續往下開發。UX designer/front-end developer可以動手處理前端 （一般來說，後續只需修改 page object 內容），backend developer可以從 controller 開始撰寫 unit test, 並針對 model 進行 TDD。

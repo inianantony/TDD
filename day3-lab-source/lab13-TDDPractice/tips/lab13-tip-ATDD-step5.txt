@@ -1,0 +1,67 @@
+add login failed scenario
+1. 在 Login.feature 裡面，加入 login failed 的 scenario
+	Scenario: Login Failed
+	Given I go to Login Page
+	And I Enter my account "joeychen"
+	And I Enter my password "abc"
+	When I Login
+	Then it should show error message "wrong account or password" on the screen	
+	
+2. generate step definitions
+選擇 copy methods to clipboard, 打開 LoginSteps.cs (移至定義即可), append step definition
+[Then(@"it should show error message ""(.*)"" on the screen")]
+public void ThenItShouldShowErrorMessageOnTheScreen(string p0)
+{
+    ScenarioContext.Current.Pending();
+}
+
+3. 把 step 內容改成與 login page object 的互動
+		[Then(@"it should show error message ""(.*)"" on the screen")]
+		public void ThenItShouldShowErrorMessageOnTheScreen(string errorMessage)
+		{
+			this._loginPage.ShowMessage(errorMessage);
+		}
+		
+4. 產生 LoginPage.ShowMessage() 的function
+		internal void ShowMessage(string errorMessage)
+		{
+			throw new NotImplementedException();
+		}
+		
+5. 完成 LoginPage 的 ShowMessage() 行為
+
+	public class LoginPage : PageObject<LoginPage>
+	{
+		private const string AccountContainer = "#account";
+		private const string PasswordContainer = "#password";
+		private const string ErrorMessageContainer = "#errorMessage"; //加上這行
+
+		public LoginPage(FluentTest test)
+			: base(test)
+		{
+			Url = string.Format("{0}/{1}", MyTestContext.Domain, "Login");
+		}
+
+		internal void Account(string account)
+		{
+			I.Enter(account).In(AccountContainer);
+		}
+
+		internal void Password(string password)
+		{
+			I.Enter(password).In(PasswordContainer);
+		}
+
+		internal void Login()
+		{
+			I.Press("{ENTER}");			
+                //.Append(OpenQA.Selenium.Keys.Enter).To(keywordContainer); //for multi-browser
+		}
+
+		internal void ShowMessage(string errorMessage)
+		{
+			I.Assert.Text(errorMessage).In(ErrorMessageContainer); //改成這行
+		}
+	}
+	
+※ 執行測試，會發現 LoginSuccess 綠燈，LoginFailed 紅燈，得到ATDD的紅燈。接著撰寫當輸入的帳號密碼錯誤時，該如何把 error message 呈現在頁面上

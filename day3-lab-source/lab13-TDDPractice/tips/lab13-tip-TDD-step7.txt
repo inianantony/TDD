@@ -1,0 +1,140 @@
+TDD 循環起點，先針對 LoginController 建立 test cases
+1. 在 MyWeb.Tests\Features 下建立 LoginController.feature
+2. 撰寫 Login success scenario
+
+Feature: LoginController	
+Scenario: Login Success
+	Given login account is "joeychen"
+	And user's password is "1234"	
+	When I invoke Index with HttpPost
+	Then result's Controller name should be "Welcome"
+	And result's Action name should be "Index"
+
+3. 產生 LoginControllerSteps.cs 到  MyWeb.Tests\Steps 底下，並修正相關參數
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyWeb.Tests.Steps
+{
+	[Binding]
+	[Scope(Feature = "LoginController")]
+	public class LoginControllerSteps
+	{
+		[Given(@"login account is ""(.*)""")]
+		public void GivenLoginAccountIs(string account)
+		{
+			ScenarioContext.Current.Pending();
+		}
+
+		[Given(@"user's password is ""(.*)""")]
+		public void GivenUserSPasswordIs(string password)
+		{
+			ScenarioContext.Current.Pending();
+		}
+
+		[When(@"I invoke Index with HttpPost")]
+		public void WhenIInvokeIndexWithHttpPost()
+		{
+			ScenarioContext.Current.Pending();
+		}
+
+		[Then(@"result's Controller name should be ""(.*)""")]
+		public void ThenResultSControllerNameShouldBe(string controllerName)
+		{
+			ScenarioContext.Current.Pending();
+		}
+
+		[Then(@"result's Action name should be ""(.*)""")]
+		public void ThenResultSActionNameShouldBe(string actionName)
+		{
+			ScenarioContext.Current.Pending();
+		}
+	}
+}
+
+4. 調整 steps 內容，就像寫單元測試一樣
+using System;
+using System.Web.Mvc;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MyWeb.Controllers;
+using TechTalk.SpecFlow;
+
+namespace MyWeb.Tests.Steps
+{
+	[Binding]
+	[Scope(Feature = "LoginController")]
+	public class LoginControllerSteps
+	{
+		private LoginController _target;
+
+		[BeforeScenario]
+		public void BeforeScenario()
+		{
+			this._target = new LoginController();
+		}
+
+		[Given(@"login account is ""(.*)""")]
+		public void GivenLoginAccountIs(string account)
+		{
+			ScenarioContext.Current.Set<string>(account, "account");
+		}
+
+		[Given(@"user's password is ""(.*)""")]
+		public void GivenUserSPasswordIs(string password)
+		{
+			ScenarioContext.Current.Set<string>(password, "password");
+		}
+
+		[When(@"I invoke Index with HttpPost")]
+		public void WhenIInvokeIndexWithHttpPost()
+		{
+			var account = ScenarioContext.Current.Get<string>("account");
+			var password = ScenarioContext.Current.Get<string>("password");
+
+			var actual = this._target.Index(account, password);
+
+			ScenarioContext.Current.Set<ActionResult>(actual);
+		}
+
+		[Then(@"result's Controller name should be ""(.*)""")]
+		public void ThenResultSControllerNameShouldBe(string controllerName)
+		{
+			var actual = ScenarioContext.Current.Get<ActionResult>() as RedirectToRouteResult;
+
+			Assert.IsNotNull(actual);
+			Assert.AreEqual(controllerName, actual.RouteValues["Controller"]);
+		}
+
+		[Then(@"result's Action name should be ""(.*)""")]
+		public void ThenResultSActionNameShouldBe(string actionName)
+		{
+			var actual = ScenarioContext.Current.Get<ActionResult>() as RedirectToRouteResult;
+
+			Assert.IsNotNull(actual);
+			Assert.AreEqual(actionName, actual.RouteValues["Action"]);
+		}
+	}
+}
+
+※這時執行測試，就會通過 LoginController 的第一個單元測試
+
+5. 加入 Login Failed 的 scenario
+	Scenario: Login Failed
+	Given login account is "joeychen"
+	And user's password is "abc"	
+	When I invoke Index with HttpPost
+	Then result's ViewBag Message should be "wrong account or password"
+
+※ 這時只有 Then 的步驟需要產生
+
+6. 產生 Then steps 的內容，並修正
+		[Then(@"result's ViewBag Message should be ""(.*)""")]
+		public void ThenResultSViewBagMessageShouldBe(string errorMessage)
+		{
+			var actual = ScenarioContext.Current.Get<ActionResult>() as ViewResult;
+
+			Assert.IsNotNull(actual);
+			Assert.AreEqual(errorMessage, actual.ViewBag.Message);
+		}
+	
+※ 這時執行測試，所有測試案例都會通過，但程式還沒結束，因為Controller現在還在 "hard code"，我們還要往下一個TDD循環前進。

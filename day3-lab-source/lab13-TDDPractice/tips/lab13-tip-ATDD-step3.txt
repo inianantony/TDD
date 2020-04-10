@@ -1,0 +1,52 @@
+1. 完成 Page object, LoginPage 的行為
+	public class LoginPage : PageObject<LoginPage>
+	{
+		private const string AccountContainer = "#account";
+		private const string PasswordContainer = "#password";
+
+		public LoginPage(FluentTest test)
+			: base(test)
+		{
+			Url = string.Format("{0}/{1}", MyTestContext.Domain, "Login");
+		}
+
+		internal void Account(string account)
+		{
+			I.Enter(account).In(AccountContainer);
+		}
+
+		internal void Password(string password)
+		{
+			I.Enter(password).In(PasswordContainer);
+		}
+
+		internal void Login()
+		{
+			I.Press("{ENTER}");			
+                //.Append(OpenQA.Selenium.Keys.Enter).To(keywordContainer); //for multi-browser
+		}
+	}
+	
+2. 完成 Page Object, WelcomePage 的行為
+	public class WelcomePage : PageObject<WelcomePage>
+	{
+		private const string welcomeMessageContainer = "#message";
+
+		public WelcomePage(FluentTest test)
+			: base(test)
+		{
+			Url = string.Format("{0}/{1}", MyTestContext.Domain, "Welcome");
+		}
+
+		internal void WelcomeMessage(string welcomeMessage)
+		{
+			I.Assert.Text(welcomeMessage).In(welcomeMessageContainer);
+		}
+
+		internal void CheckAt()
+		{
+			I.Assert.Url(this.Url);
+		}
+	}
+	
+※這時執行測試，仍然會是404 error，接著要通過ATDD的第一個測試紅燈，實作最簡單的production code，以通過紅燈

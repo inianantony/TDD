@@ -1,0 +1,44 @@
+LoginController Unit test 已經通過了，但 web 測試變成 error. (NullReferenceException, 因為 IAuth 是 null)
+※修改 production code, 以通過 web 測試。
+
+1. 修改LoginController.cs, baby step 通過測試。
+
+		private IAuth _auth;
+		public IAuth AuthService
+		{
+			get
+			{
+				if (this._auth == null)
+				{
+					this._auth = new AuthService();
+				}
+
+				return this._auth;
+			}
+			set
+			{
+				this._auth = value;
+			}
+		}
+
+2. 產生 AuthService class, 實作 IAuth, 並將原本 hard code 的邏輯搬進去。
+	public class AuthService : IAuth
+	{
+		public bool Validate(string account, string password)
+		{
+			if (account == "joeychen" && password == "1234")
+			{
+				return true;
+				//return RedirectToAction("Index", "Welcome");
+			}
+			// 加上authentication失敗的處理
+			else
+			{
+				return false;
+				//ViewBag.Message = "wrong account or password";
+				//return View();
+			} 
+		}
+	}
+	
+※ 執行所有測試，全都變成綠燈。但這時 AuthService 仍然是 hard code 的邏輯，所以我們要再為 AuthService 開始建立TDD。
