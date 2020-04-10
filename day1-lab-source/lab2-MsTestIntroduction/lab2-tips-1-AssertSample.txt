@@ -1,0 +1,132 @@
+﻿[TestMethod]
+public void Test_Person_Equals_with_ExpectedObjects()
+{
+	var expected = new Person
+	{
+		Id = 1,
+		Name = "A",
+		Age = 10,
+	};
+
+	var actual = new Person
+	{
+		Id = 1,
+		Name = "A",
+		Age = 10,
+	};
+
+	expected.ToExpectedObject().ShouldEqual(actual);
+}
+
+[TestMethod]
+public void Test_PersonCollection_Equals_with_ExpectedObjects()
+{
+	var expected = new List<Person>
+	{
+		new Person { Id=1, Name="A",Age=10},
+		new Person { Id=2, Name="B",Age=20},
+		new Person { Id=3, Name="C",Age=30},
+	};
+
+	var actual = new List<Person>
+	{
+		new Person { Id=1, Name="A",Age=10},
+		new Person { Id=2, Name="B",Age=20},
+		new Person { Id=3, Name="C",Age=30},
+	};
+
+	expected.ToExpectedObject().ShouldEqual(actual);	
+}
+
+[TestMethod]
+public void Test_PersonCollection_Equals_with_FluentAssertions()
+{
+	var expected = new List<Person>
+	{
+		new Person { Id=1, Name="A",Age=10},
+		new Person { Id=2, Name="B",Age=20},
+		new Person { Id=3, Name="C",Age=30},
+	};
+
+	var actual = new List<Person>
+	{
+		new Person { Id=1, Name="A",Age=10},
+		new Person { Id=2, Name="B",Age=20},
+		new Person { Id=3, Name="C",Age=30},
+	};
+
+	expected.ShouldBeEquivalentTo(actual);
+}
+		
+[TestMethod]
+public void Test_ComposedPerson_Equals_with_ExpectedObjects()
+{
+	var expected = new Person
+	{
+		Id = 1,
+		Name = "A",
+		Age = 10,
+		Order = new Order { Id = 91, Price = 910 },
+	};
+
+	var actual = new Person
+	{
+		Id = 1,
+		Name = "A",
+		Age = 10,
+		Order = new Order { Id = 91, Price = 910 },
+	};
+
+	expected.ToExpectedObject().ShouldEqual(actual);	
+}
+
+[TestMethod]
+public void Test_PartialCompare_Person_Equals_with_ExpectedObjects()
+{
+	var expected = new
+	{
+		Id = 1,
+		Age = 10,
+		//透過匿名型別，只比較property的value是否相等
+		Order = new { Id = 91 },
+	};
+
+	var actual = new Person
+	{
+		Id = 1,
+		Name = "B",
+		Age = 10,
+		Order = new Order { Id = 91, Price = 910 },
+	};
+
+	//ShouldMatch()
+	expected.ToExpectedObject().ShouldMatch(actual);	
+}
+
+[TestMethod]
+public void Test_DataTable_Equals_with_ExpectedObjects_and_ItemArray()
+{
+	var expected = new DataTable();
+	expected.Columns.Add("Id");
+	expected.Columns.Add("Name");
+	expected.Columns.Add("Age");
+
+	expected.Rows.Add(1, "A", 10);
+	expected.Rows.Add(2, "B", 20);
+	expected.Rows.Add(3, "C", 30);
+
+	var actual = new DataTable();
+	actual.Columns.Add("Id");
+	actual.Columns.Add("Name");
+	actual.Columns.Add("Age");
+
+	actual.Rows.Add(1, "A", 10);
+	actual.Rows.Add(2, "B", 20);
+	actual.Rows.Add(3, "C", 30);
+
+	//compare by ItemArray, just compare the value without caring column name; the disadvantage is that error information didn't show what column's value is different;
+	var expectedItemArrayCollection = expected.AsEnumerable().Select(dr => dr.ItemArray);
+	var actualItemArrayCollection = actual.AsEnumerable().Select(dr => dr.ItemArray);
+
+	expectedItemArrayCollection.ToExpectedObject().ShouldEqual(actualItemArrayCollection);
+}

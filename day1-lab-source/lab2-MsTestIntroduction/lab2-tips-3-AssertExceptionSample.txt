@@ -1,0 +1,25 @@
+﻿		//Not recommended, as the exception is focusing on the whole case, and not only on the act method.So if there is any exception thrown before act and if that exception is of the same type, then this case will pass.
+		[ExpectedException(typeof(DivideByZeroException))]
+        [TestMethod]
+        public void 該怎麼驗證Exception()
+        {
+            var b = 0;
+            var a = 1;
+
+            var actual = Divide(a, b);
+        }
+
+        [TestMethod]
+        public void 該怎麼驗證Exception_With_FluentAssertion()
+        {
+            var b = 0;
+            var a = 1;
+
+            Action act = () => Divide(a, b);
+            act.ShouldThrow<DivideByZeroException>();
+        }
+
+        private int Divide(int a, int b)
+        {
+            return a / b;
+        }
