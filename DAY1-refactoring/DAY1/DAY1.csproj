@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B67C4614-A1C8-4DA0-80AB-C523AD07E8F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAY1</RootNamespace>
+    <AssemblyName>DAY1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\workspace\MouseSoft\Build\packages\NUnit.Runners.2.6.3\tools\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="generalization\AddEmployeeCmd.cs" />
+    <Compile Include="generalization\Class1.cs" />
+    <Compile Include="generalization\Command.cs" />
+    <Compile Include="generalization\LoginCommand.cs" />
+    <Compile Include="homeguard\CentralUnit.cs" />
+    <Compile Include="homeguard\Class1.cs" />
+    <Compile Include="homeguard\Diagnostics.cs" />
+    <Compile Include="homeguard\DoorAbstractSensor.cs" />
+    <Compile Include="homeguard\FireAbstractSensor.cs" />
+    <Compile Include="homeguard\IAudibleAlarm.cs" />
+    <Compile Include="homeguard\IHomeguardView.cs" />
+    <Compile Include="homeguard\MockAudibleAlarm.cs" />
+    <Compile Include="homeguard\MockView.cs" />
+    <Compile Include="homeguard\AbstractSensor.cs" />
+    <Compile Include="homeguard\MotionAbstractSensor.cs" />
+    <Compile Include="homeguard\Packet.cs" />
+    <Compile Include="homeguard\StatusEnum.cs" />
+    <Compile Include="homeguard\TextAudibleAlarm.cs" />
+    <Compile Include="homeguard\TextView.cs" />
+    <Compile Include="homeguard\WindowAbstractSensor.cs" />
+    <Compile Include="scheduler\Class1.cs" />
+    <Compile Include="scheduler\DayTime.cs" />
+    <Compile Include="scheduler\Event.cs" />
+    <Compile Include="scheduler\IDisplay.cs" />
+    <Compile Include="scheduler\MailService.cs" />
+    <Compile Include="scheduler\Meeting.cs" />
+    <Compile Include="scheduler\NoteRetriever.cs" />
+    <Compile Include="scheduler\Scheduler.cs" />
+    <Compile Include="scheduler\SchedulerDisplay.cs" />
+    <Compile Include="scheduler\TimeServices.cs" />
+    <Compile Include="videostore\Customer.cs" />
+    <Compile Include="videostore\Movie.cs" />
+    <Compile Include="videostore\Rental.cs" />
+    <Compile Include="videostore\VideoStoreTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

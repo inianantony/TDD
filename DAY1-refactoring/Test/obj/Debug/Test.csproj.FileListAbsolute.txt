@@ -1,0 +1,16 @@
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY1\Test\bin\Debug\Test.dll
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY1\Test\bin\Debug\Test.pdb
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY1\Test\bin\Debug\DAY1.dll
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY1\Test\bin\Debug\nunit.framework.dll
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY1\Test\bin\Debug\DAY1.pdb
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY1\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY1\Test\obj\Debug\Test.dll
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY1\Test\obj\Debug\Test.pdb
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY13\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY13\Test\obj\Debug\Test.pdb
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY13\Test\bin\Debug\Test.dll
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY13\Test\bin\Debug\Test.pdb
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY13\Test\bin\Debug\DAY1.dll
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY13\Test\bin\Debug\nunit.framework.dll
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY13\Test\bin\Debug\DAY1.pdb
+C:\Users\loma.somphet75\Documents\14-09\WELC\DAY1\DAY13\Test\obj\Debug\Test.dll
